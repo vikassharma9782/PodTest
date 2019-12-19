@@ -11,7 +11,7 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "12.0"
   spec.swift_version = '5.0'
   spec.author             = { "vikas sharma" => "vikassharma9782@gmail.com" }
-  spec.source       = { :git => "https://github.com/vikassharma9782/PodTest.git", :tag => "1.0.0" }
+  spec.source       = { :git => "https://github.com/vikassharma9782/PodTest.git",:branch => "master", :tag => "1.0.0" }
 
 
   spec.source_files  = "PodTest/**/*.{swift}"
